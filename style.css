@@ -1,0 +1,42 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    --header1: 2rem;
+    --header2: 3.5rem;
+    --header3: 2.5rem;
+    --header4: 2rem;
+    --text: 2rem;
+}
+
+h1 {
+    font-size: var(--header1);
+}
+
+li,
+p {
+    font-size: var(--text);
+}
+
+h2 {
+    font-size: var(--header2);
+}
+
+h3 {
+    font-size: var(--header3);
+}
+
+h4,
+h5 {
+    font-size: var(--header4);
+}
+
+ul {
+    list-style: none;
+}
