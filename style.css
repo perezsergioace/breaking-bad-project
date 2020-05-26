@@ -66,7 +66,7 @@ nav {
 
 .searchTerm {
 	width: 100%;
-	border: 3px solid #222831;
+	border: 3px solid black;
 	padding: 1.5rem;
 	height: 2rem;
 	border-radius: 5px;
@@ -74,6 +74,10 @@ nav {
 	color: black;
 	font-size: 2rem;
 	text-align: center;
+}
+
+.searchTerm:focus {
+	border: 3px solid #1c4b92;
 }
 
 ul {
