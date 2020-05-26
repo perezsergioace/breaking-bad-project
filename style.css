@@ -96,3 +96,9 @@ li {
 	max-width: 20rem;
 	max-height: 20rem;
 }
+
+@media screen and (max-width: 800px) {
+	.search {
+		width: 80%;
+	}
+}
