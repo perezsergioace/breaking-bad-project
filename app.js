@@ -22,8 +22,8 @@ const displayCharacters = (characters) => {
 		.map((character) => {
 			return `
             <li class="character">
-                <h2>${character.name}</h2>
                 <img src="${character.img}" alt="image of characer" />
+                <h2>${character.name}</h2>
                 <p>${character.birthday}</p>
                 ${character.occupation
 					.map((job) => {
