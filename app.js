@@ -14,4 +14,4 @@ const getAllCharacters = async () => {
 	}
 }
 
-getAllCharacters()
+// getAllCharacters()
